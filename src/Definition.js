@@ -8,7 +8,7 @@ const Definition = ({word,meanings,lang}) => {
       
       {!word && <div className='sm:pl-8 ... grid items-center justify-items-center  w-full'>
           
-          <span className='sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-4xl font-Irish  rounded'>
+          <span className='p-2 sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-4xl font-Irish  rounded'>
                      Type something ................
                  </span>
                  </div> }
