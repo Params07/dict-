@@ -8,9 +8,9 @@ const Definition = ({word,meanings,lang}) => {
       
       {!word && <div className='sm:pl-8 ... grid items-center justify-items-center  w-full'>
           
-          <span className='p-2 sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-4xl font-Irish  rounded'>
+          <div className=' sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-4xl font-Irish  rounded'>
                      Type something ................
-                 </span>
+                 </div>
                  </div> }
       {meanings[0] &&
   <div className='sm:pl-8 ... grid items-center justify-items-center  w-full '>
