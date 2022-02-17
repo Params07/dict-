@@ -5,11 +5,11 @@ import { Tab } from '@headlessui/react'
 const Definition = ({word,meanings,lang}) => {
   return (
       <>
-      
-      {!word && <div className='sm:pl-8 ... grid items-center justify-items-center  w-full'>
-          
-          <div className=' sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-4xl font-Irish  rounded'>
+   {!word && <div className='sm:pl-8 ... container  grid justify-items-center items-center  '>
+          <div className='p-2'>
+          <span className=' sm:p-4 md:p-6 xl:p-8 w-full sm:w-3/4 text-red-500 text-2xl sm:text-4xl font-Irish  rounded'>
                      Type something ................
+                 </span>
                  </div>
                  </div> }
       {meanings[0] &&
